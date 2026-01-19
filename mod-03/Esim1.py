@@ -4,7 +4,7 @@ rahat = float(input("Paljonko on rahaa mukana: "))
 
 # jos käyttäjä on täysi-ikäinen ja rahaa on
 # vähintään 10€, niin pääsee bileisiin.
-# Muuten toivotetaan kotimatkaa.
+# Muuten toivotetaan hyvää kotimatkaa.
 if ika >= 18  and rahat >= 10:
     print("Hyvää iltaa,")
     print("Tervetuloa bileisiin!!!")
