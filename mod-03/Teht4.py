@@ -18,3 +18,9 @@ JOS vuosi on jaollinen 400:lla TAI
 MUUTEN
     vuosi EI ole karkausvuosi
 """
+
+# Testaa ratkaisusi ainakin arvoilla:
+# 1900 -> EI ole
+# 2000 -> KYLLÄ
+# 2024 -> KYLLÄ
+# 2026 -> EI
