@@ -16,7 +16,7 @@ luku = int( input("Annan kokonaisluku: ") )
 
 # lasketaan ja tulostetaan nyt jakojäännöksen arvo, '\n' on rivinvaihto
 jakojaannos = luku % 3
-print(f"jakojäännös, kun lukusi jaetaan kolmella on {jakojaannos}")
+print(f"\njakojäännös, kun lukusi jaetaan kolmella on {jakojaannos}")
 
 # luvun jaollisuus tai jaottomuus voidaan tutkia helposti  if-ehdon avulla
 if luku % 3 == 0:
