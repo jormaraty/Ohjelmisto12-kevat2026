@@ -5,14 +5,14 @@
     Esim. 15 % 5 = 0, eli 15 on jaollinen 5:llä.
     15/5 = 3 tasan, yhtään ei 'jää yli'.
 
-    19 % 5 = 4, eli 18 ei ole jaollinen 5:llä.
+    19 % 5 = 4, eli 19 ei ole jaollinen 5:llä.
     5 mahtuu kolme kokonaista kertaa lukuun 19.
     3 * 5 = 15 -> luvusta 19 'jää 4 yli'.
 '''
 
 # kysytään käyttältä kokonaisluku,
 # tarkistetaan, että onko se jaollinen 3:lla.
-luku = int( input("Annan kokonaisluku: ") )
+luku = int( input("Anna kokonaisluku: ") )
 
 # lasketaan ja tulostetaan nyt jakojäännöksen arvo, '\n' on rivinvaihto
 jakojaannos = luku % 3

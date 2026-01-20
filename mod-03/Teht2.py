@@ -2,7 +2,8 @@
 vastaus = input("Mikä on hyttiluokkasi? ")
 
 # xtra: muutetaan käyttäjän syötteen kaikki merkit isoiksi,
-# sijoitetaan muokattu merkkijono uuteen muuttujaan
+# sijoitetaan muokattu merkkijono uuteen muuttujaan.
+# tämän jälkeen 'Lux' ja 'lux' on muutettu muotoon 'LUX'.
 hyttiluokka = vastaus.upper()
 
 # tulostetaan selitysteksti hyttiluokan mukaan
