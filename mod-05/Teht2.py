@@ -9,3 +9,9 @@
 
 # Tulostetaan järjestetystä listasta 5 ekaa alkiota.
 
+numerot = [1, 4, 6, 8, 11, 15, 56]
+
+# tulostetaan 5 ekaa arvoa listasta
+for arvo in numerot[:5]:
+    print(arvo)
+
