@@ -2,6 +2,7 @@
 
 # Kysytään käyttäjältä lukuja, kunnes hän antaa tyhjän merkkijonon.
 # Ahaa, käyttäjän syöte luettava merkkijonona, muuten ei havaita lopetusmerkkiä.
+# Huom: Tallennetaan arvot listaan kuitenkin numerona.
 
 # lajitellaan listan alkiot käänteiseen suuruusjärjestykseen
 # (suurimmasta pienimpään).
