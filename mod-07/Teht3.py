@@ -2,7 +2,7 @@
 
 def lisaa():
     # funktio lisää uuden lentokentän sanakirjaan
-    pass
+    print("Toiminto ei ihan vielä valmis...")
 
 def hae():
     # funktio hakee lentokentän tiedot
@@ -25,9 +25,12 @@ lentoasemat = {
 toiminto = 0    # käyttäjän valitsema toiminnon nro
 
 while toiminto != 9:
+    tulosta_valikko()
+    toiminto = int(input("Valitse toiminto: "))
+
     if toiminto == 1:
         lisaa()
-    # tässä välissä on muut toiminnot (elif)
+    # tässä välissä on muut toiminnot (elif -haarat)
     else:
         print("Tuntematon toiminto")
 
