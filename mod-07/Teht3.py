@@ -5,8 +5,8 @@ def lisaa():
     print("Toiminto ei ihan vielä valmis...")
 
 def hae():
-    # funktio hakee lentokentän tiedot
-    pass
+    # funktio pyytää käyttäjältä icao-koodin, hakee sen avulla lentokentän tiedot.
+    pass        # komento ei tee mitään, mutta jokin suorituslause vaaditaan..
 
 def tulosta_valikko():
     # funktio tulostaa käyttäjälle eri vaihtoehdot
@@ -29,6 +29,7 @@ while toiminto != 9:
     toiminto = int(input("Valitse toiminto: "))
 
     if toiminto == 1:
+        # lisätään uusi lentoasema
         lisaa()
     # tässä välissä on muut toiminnot (elif -haarat)
     else:
