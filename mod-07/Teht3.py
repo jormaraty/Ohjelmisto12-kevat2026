@@ -19,7 +19,7 @@ def tulosta_valikko():
 
 # luodaan sankirja lentokentän tietoja varten
 lentoasemat = {
-    "Helsinki-Vantaa" : "EFHK"
+    "EFHK" : "Helsinki-Vantaa"
 }
 
 toiminto = 0    # käyttäjän valitsema toiminnon nro
