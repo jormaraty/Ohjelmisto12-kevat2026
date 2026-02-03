@@ -24,7 +24,7 @@ print("- Pääohjelma tässä. Aloitetaan. -")
 syote = float( input("Kuinka paljon tuumia? ") )
 
 # kutsutaan funktiota, annetaan kutsun yhteydessä pääohjelman muuttujan arvo.
-# Huom: pääohjelman 'syote' kopioidaan muuttujan parametrin 'tuumat' arvoksi.
+# Huom: pääohjelman 'syote' kopioidaan funtion parametrin 'tuumat' arvoksi.
 # Huom: pääohjelma ei näe funktion parametrin nimeä.
 muunna(syote)
 
