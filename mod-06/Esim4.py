@@ -16,6 +16,7 @@ Tästä seuraa:
 
 # Funktio saa parametrina listan kokonaislukuja,
 # funktio lajittelee listan alkiot ja lisäksi tuplaa niiden arvon.
+# Funktio ei palauta mitään.
 def tuplaus(lista):
     print("\n-- Funktio tässä moi, käsittelen hieman listaani nimeltä 'lista'.")
     # lajitellaan listan alkiot nousevaan suuruusjärjestykseen
