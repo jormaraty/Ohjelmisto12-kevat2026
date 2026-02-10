@@ -6,6 +6,7 @@
     Eihän ope osaa ratkaista tätäkään tehtävää, kuten tehtävässä haluttiin.
     Tämä ohjelma kysyy vain yhden lentokentän ICAO-koodin ja laskee sen etäisyyden Helsinki-Vantaan
     lentoasemasta kilometreinä.
+    Joudut nyt vähän pähkäilemään, jotta saat tehtävän ratkaistua kuten haluttiin.
 
     geopy.distance.distance käyttää oletuksena tarkkaa WGS-84 maan
     mallinnusta (geodesic). Myös GPS käyttää samaa.
@@ -41,8 +42,8 @@ yhteys = mysql.connector.connect(
     host='127.0.0.1',           # tai 'localhost'. Viittaa sinun omaan koneeseen.
     port= 3306,
     database='flight_game',     # tähän sinun tietokannan nimi
-    user='root',                # vaihda tähän sinun oma käyttäjätunnus
-    password='root',            # käyttäjän oikea salasana
+    user='peruskäyttäjä',       # HUOM: vaihda tähän sinun oma käyttäjätunnus
+    password='salainen',        # HUOM: tähän käyttäjän oikea salasana
     autocommit=True
     )
 
