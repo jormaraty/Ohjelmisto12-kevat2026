@@ -24,8 +24,10 @@ try:
 except requests.exceptions.RequestException as e:
     # käsitellään nettihaussa syntyneet poikkeukset
     print ("Hakua ei voitu suorittaa.")
-
-# voinko käsitellä myös muut poikkeukset?
+except Exception as ex:
+    # käsitellään kaikki muut poikkeukset
+    print("Tapahtui odottamaton virhe:")
+    print(ex)       # virheen selitys
 
 
 
