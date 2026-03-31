@@ -1,0 +1,15 @@
+# Alla open selaimessa kokeilema Espoon säätilan haku.
+# Toimi.
+# Huom: näyttää siltä, että oletuksena ei tule meidän
+# käyttämiä SI-yksiköitä.
+# Vinkki: parametri units.
+
+# Huom: tämä haku käytää open temp-avainta,
+# joka on voimassa vain rajoitetun ajan.
+# Käytä omaa API Key, kun saat sen toimimaan.
+
+# havaitsithan, että API:n ohjeissa olevat
+# punaiset sulut {...} vain korostavat että
+# sinun täytyy laittaa niiden tilalle jotakin järkevää.
+
+https://api.openweathermap.org/data/2.5/weather?q=Espoo&appid=d5617b002ed2b89c33043122a30586b8
